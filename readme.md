@@ -1,5 +1,9 @@
+#                                         仿京东ES搜索Demo
+
 ### 简介 
-使用 jsoup 爬取京东数据, 并写入到 elasticsearch 中, 并根据关键字搜索高亮展示内容
+
+**使用 jsoup 爬取京东数据, 并写入到 elasticsearch 中, 并根据关键字搜索高亮展示内容**
+![image-20230816150315120](https://img2023.cnblogs.com/blog/2169049/202308/2169049-20230816150323373-2100294217.png)
 
 ### 技术栈
 - Spring Boot 2.2.5.RELEASE
@@ -7,11 +11,7 @@
 - Jsoup
 - Vue.js
 
-![image-20230816150315120](https://img2023.cnblogs.com/blog/2169049/202308/2169049-20230816150323373-2100294217.png)
-
-![image-20230816150539614](https://img2023.cnblogs.com/blog/2169049/202308/2169049-20230816150540803-1263143569.png)
-
-建立索引
+### 建立索引
 
 ```json
 PUT /content
